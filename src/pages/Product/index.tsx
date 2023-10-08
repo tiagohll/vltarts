@@ -221,7 +221,7 @@ export default function Product() {
     }
   };
 
-  useEFfect(() => {
+  useEffect(() => {
     document.title = "Produtos - VLT Art's";
   })
 
