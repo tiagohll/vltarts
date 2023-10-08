@@ -123,7 +123,6 @@ export default function MyAccount() {
                 <Header />
                     <div className='flex flex-col items-center'>
                         <div className='container flex flex-col lg:flex-auto'>
-                            <Link to='/admin'>ADMIN</Link>
                             <h1 className='mx-5 mt-2'>Olá <span className='font-bold'>{user.displayName}</span>! Acompanhe aqui seus pedidos e seus dados cadastrais. 
                                 <button className='underline hover:font-medium' 
                                     onClick={showSignOutModal}
