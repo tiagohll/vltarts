@@ -10,6 +10,7 @@ import AdminHome from './pages/Admin/pages/Home';
 import AdminTeam from './pages/Admin/pages/Team';
 import AdminProjects from './pages/Admin/pages/Projects';
 import AdminReports from './pages/Admin/pages/Reports';
+import { Artes } from "./pages/Artes";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Routes>
                 <Route  path="/" element={<Home />} />
                 <Route  path="/products" element={<Product />} />
+                <Route path="/artes" element={<Artes />} />
 
                 <Route path="/app/my-account" element={<MyAccount />} />
                 <Route path="/checkout" element={<Cart />} />
