@@ -4,7 +4,7 @@ import Footer from "../../components/Footer";
 import { Check, Plus, X } from "lucide-react";
 import { auth } from "../../services/firebaseConfig";
 import { getDatabase, ref, set } from "firebase/database";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import ProductCard from "../../components/ProductCard";
 
@@ -220,6 +220,10 @@ export default function Product() {
       }, 5000);
     }
   };
+
+  useEFfect(() => {
+    document.title = "Produtos - VLT Art's";
+  })
 
   return (
     <section>
