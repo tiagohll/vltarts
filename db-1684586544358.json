@@ -1,0 +1,87 @@
+{
+  "shop": [
+    {
+      "id": 1,
+      "name": "500 Coins",
+      "price": 5,
+      "price-type": "R$",
+      "description": "Utilize para comprar o nosso cargo PREMIUM e DISCORD NITRO",
+      "image-url": "",
+      "created": "2023-05-11",
+      "modified": ""
+    },
+    {
+      "id": 2,
+      "name": "1000 Coins",
+      "price": 10,
+      "price-type": "R$",
+      "description": "Utilize para comprar o nosso cargo PREMIUM e DISCORD NITRO",
+      "image-url": "",
+      "created": "2023-05-11",
+      "modified": ""
+    },
+    {
+      "id": 3,
+      "name": "Discord NITRO (Basic)",
+      "price": 1000,
+      "price-type": "Coins",
+      "description": "Adquira seu DISCORD NITRO versão BASICA",
+      "image-url": "",
+      "created": "2023-05-11",
+      "modified": ""
+    },
+    {
+      "id": 4,
+      "name": "Discord NITRO (Classic)",
+      "price": 2700,
+      "price-type": "Coins",
+      "description": "Adquira seu DISCORD NITRO versão CLASSICA",
+      "image-url": "",
+      "created": "2023-05-11",
+      "modified": ""
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "token": "ymiLr6DgwI25ygXm",
+      "email": "tiagohll2018@gmail.com",
+      "password": "teste",
+      "name": "Tiago Henrique",
+      "created": "2023-05-10",
+      "avatar-url": ""
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "name": "Regra N-1",
+      "rule": "Trate todos com respeito. Nenhum tipo de asséduo, caça ás bruxas, sexismo, racismo ou discurso de ódio será tolerado."
+    },
+    {
+      "id": 2,
+      "name": "Regra N-2",
+      "rule": "É proibido fazer spam ou autopromoção (convites de servidor, anúncios, etc) sem permissão de um membro da equipe. Isso inclui mandar MDs para outros membros."
+    },
+    {
+      "id": 3,
+      "name": "Regra N-3",
+      "rule": "Nada de conteúdo adulto ou obsceno. Isso inclui texto, imagens ou links que contenham nudez, sexo, violência pesada ou conteúdo graficamente perturbador."
+    },
+    {
+      "id": 4,
+      "name": "Regra N-4",
+      "rule": "Se você vir algo que quebre as regras, ou algo que te faça sentir insegurança, avise a equipe. Queremos que este servidor seja um espaço acolhedor!"
+    },
+    {
+      "id": 5,
+      "name": "Regra N-5",
+      "rule": "Qualquer tentativa de suborno com algum staff ou player terá suas devidas consequências seja no privado ou em algum chat (caso seja um suborno grave poderá resultar até mesmo em banimentos.)."
+    },
+    {
+      "id": 6,
+      "name": "Regra N-6",
+      "rule": "Divulgações de live stream ou videos somente no canal ⁠🎨・divulgação , caso você tenha o cargo @CREATOR | Streamer ou @CREATOR | Youtuber será permitido a divulgação de live stream no canal ⁠📢・divulgação-lives e de videos no canal ⁠📣・divulgação-videos ."
+    }
+  ]
+}

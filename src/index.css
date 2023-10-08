@@ -1,0 +1,220 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+ 
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+ 
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+ 
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+ 
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+ 
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+ 
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --ring: 215 20.2% 65.1%;
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+ 
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+ 
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+ 
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+ 
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+ 
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+ 
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+ 
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+ 
+    --ring: 217.2 32.6% 17.5%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+@keyframes opacity-shown {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity-hidden {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300%);
+  }
+}
+
+@keyframes slide-down2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+@keyframes modal-show {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes modal-hide {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes showSidebar {
+  0% {
+    width: 5%;
+  }
+  100% {
+    width: 15%;
+  }
+}
+
+@keyframes hideSidebar {
+  0% {
+    width: 15%;
+  }
+  100% {
+    width: 5%;
+  }
+}
+
+
+.animate-opacity-show {
+  animation: opacity-shown 0.7s;
+  animation-fill-mode: forwards;
+}
+
+.animate-opacity-hidden {
+  animation: opacity-hidden 0.55s;
+  animation-fill-mode: forwards;
+}
+
+.animate-slide-in {
+  animation: slide-in 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.animate-slide-down2 {
+  animation: slide-down2 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.animate-slide-down {
+  animation: slide-down 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.animate-modal-show {
+  animation: modal-show 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.animate-modal-hide {
+  animation: modal-hide 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.tooltip-opacity-show {
+  animation: opacity-shown 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.tooltip-opacity-hidden {
+  animation: opacity-hidden 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.animate-show-sidebar {
+  animation: showSidebar 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.animate-hide-sidebar {
+  animation: hideSidebar 0.5s;
+  animation-fill-mode: forwards;
+}

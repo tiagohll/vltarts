@@ -1,0 +1,77 @@
+{
+    "shop": [
+        {
+            "id": 1,
+            "name": "500 Coins",
+            "price": 5.00,
+            "price_type": "R$",
+            "description": "<p> O produto em questão é uma moeda virtual exclusiva, especialmente desenvolvida para uso no Servidor Patati Patatá no Discord. Essa moeda oferece uma variedade de benefícios aos usuários, sendo uma excelente opção para quem deseja aproveitar ao máximo sua experiência no servidor.</p><p> Uma das principais utilizações dessa moeda é a possibilidade de adquirir um Cargo Premium no Servidor Patati Patatá. Esse cargo confere aos usuários uma série de vantagens, como acesso a canais exclusivos, permissões especiais e destaque diferenciado no servidor. Com o Cargo Premium, os usuários podem desfrutar de uma experiência privilegiada e se destacar na comunidade. </p><p> Além disso, a moeda virtual também pode ser utilizada para adquirir o Discord Nitro. Essa é uma excelente opção para quem busca aprimorar ainda mais sua experiência no Discord, já que o Discord Nitro oferece uma série de recursos premium, como emojis personalizados, qualidade de áudio aprimorada, capacidade de compartilhar tela em alta definição e muitos outros benefícios exclusivos. </p><p> Com essa moeda virtual exclusiva, os usuários têm a oportunidade de personalizar e enriquecer sua participação no Servidor Patati Patatá, além de aproveitar os recursos avançados oferecidos pelo Discord Nitro. É uma forma de valorizar e recompensar os membros engajados e proporcionar uma experiência diferenciada dentro da comunidade. </p><p> Não perca a chance de adquirir essa moeda virtual exclusiva e desfrutar de todos os benefícios e vantagens que ela oferece. Eleve sua experiência no Servidor Patati Patatá e no Discord como um todo com essa poderosa moeda virtual. </p>",
+            "image_url": "https://cdn.discordapp.com/attachments/676179249714954287/1109849244933828708/coin500x.png",
+            "created": "2023-05-11",
+            "modified": "" 
+        },
+        {
+            "id": 2,
+            "name": "1000 Coins",
+            "price": 10.00,
+            "price_type": "R$",
+            "description": "<p> O produto em questão é uma moeda virtual exclusiva, especialmente desenvolvida para uso no Servidor Patati Patatá no Discord. Essa moeda oferece uma variedade de benefícios aos usuários, sendo uma excelente opção para quem deseja aproveitar ao máximo sua experiência no servidor.</p><p> Uma das principais utilizações dessa moeda é a possibilidade de adquirir um Cargo Premium no Servidor Patati Patatá. Esse cargo confere aos usuários uma série de vantagens, como acesso a canais exclusivos, permissões especiais e destaque diferenciado no servidor. Com o Cargo Premium, os usuários podem desfrutar de uma experiência privilegiada e se destacar na comunidade. </p><p> Além disso, a moeda virtual também pode ser utilizada para adquirir o Discord Nitro. Essa é uma excelente opção para quem busca aprimorar ainda mais sua experiência no Discord, já que o Discord Nitro oferece uma série de recursos premium, como emojis personalizados, qualidade de áudio aprimorada, capacidade de compartilhar tela em alta definição e muitos outros benefícios exclusivos. </p><p> Com essa moeda virtual exclusiva, os usuários têm a oportunidade de personalizar e enriquecer sua participação no Servidor Patati Patatá, além de aproveitar os recursos avançados oferecidos pelo Discord Nitro. É uma forma de valorizar e recompensar os membros engajados e proporcionar uma experiência diferenciada dentro da comunidade. </p><p> Não perca a chance de adquirir essa moeda virtual exclusiva e desfrutar de todos os benefícios e vantagens que ela oferece. Eleve sua experiência no Servidor Patati Patatá e no Discord como um todo com essa poderosa moeda virtual. </p>",
+            "image_url": "https://cdn.discordapp.com/attachments/676179249714954287/1109852851238359061/imagemprodutos3.png",
+            "created": "2023-05-11",
+            "modified": "" 
+        },
+        {
+            "id": 3,
+            "name": "Discord NITRO (Basic)",
+            "price": 1000,
+            "price_type": "Coins",
+            "description": "<p>O Discord Nitro Basic é a nova adição ao conjunto de planos de assinatura premium oferecidos pelo Discord. Com recursos aprimorados, o Discord Nitro Basic oferece uma experiência ainda mais enriquecedora para os usuários que desejam aproveitar ao máximo a plataforma.</p><p>Ao assinar o Discord Nitro Basic, você terá acesso a várias vantagens exclusivas:</p><p>1 - 50MB de upload: Com o Nitro Basic, você pode enviar arquivos com até 50MB de tamanho. Isso permite compartilhar imagens, vídeos, documentos e outros tipos de arquivos de tamanho mais substancial, sem se preocupar com restrições de tamanho.</p><p>2 - Emoji personalizado em qualquer lugar: Com o Nitro Basic, você pode usar seus emojis personalizados em qualquer servidor Discord, independentemente de você ser um membro ou não. Isso significa que você pode adicionar um toque pessoal às suas conversas em qualquer comunidade.</p><p>3 - Emblema especial no seu perfil: Como assinante do Nitro Basic, você recebe um emblema exclusivo em seu perfil. Esse emblema especial destaca sua assinatura e mostra para os outros membros que você faz parte do Discord Nitro Basic, adicionando um toque de prestígio ao seu perfil.</p><p>4 - 2 super reações por semana: O Nitro Basic oferece a você a capacidade de usar duas super reações por semana. As super reações são reações animadas e personalizadas que adicionam ainda mais diversão e expressividade às suas interações nas conversas.</p><p>Essas vantagens adicionais fornecem aos assinantes do Discord Nitro Basic a oportunidade de personalizar ainda mais suas experiências e se destacar em suas interações no Discord. Com mais opções de upload, emojis personalizados em qualquer lugar, um emblema especial e super reações exclusivas, você pode tornar suas conversas mais envolventes e personalizadas.</p><p>É importante notar que o Discord Nitro Basic é um plano de assinatura pago, oferecendo recursos adicionais aos usuários. Se você valoriza a personalização, a capacidade de compartilhar arquivos maiores e a exclusividade de recursos como emojis personalizados e super reações, o Discord Nitro Basic pode ser a escolha ideal para você.</p><p>Aproveite ao máximo o Discord com o Nitro Basic e eleve suas interações e experiências a um nível superior.</p>",
+            "image_url": "https://cdn.discordapp.com/attachments/676179249714954287/1109852850886025277/imagemprodutos2.png",
+            "created": "2023-05-11",
+            "modified": "" 
+        },
+        {
+            "id": 4,
+            "name": "Discord NITRO (Classic)",
+            "price": 2700,
+            "price_type": "Coins",
+            "description": "Adquira seu DISCORD NITRO versão CLASSICA",
+            "image_url": "https://cdn.discordapp.com/attachments/676179249714954287/1109852850500161616/imagemprodutos.png",
+            "created": "2023-05-11",
+            "modified": "" 
+        }
+    ],
+    "rules": [
+        {
+            "id": 1,
+            "name": "Regra N-1",
+            "rule": "Trate todos com respeito. Nenhum tipo de assédio, caça ás bruxas, sexismo, racismo ou discurso de ódio será tolerado."
+        },
+        {
+            "id": 2,
+            "name": "Regra N-2",
+            "rule": "É proibido fazer spam ou autopromoção (convites de servidor, anúncios, etc) sem permissão de um membro da equipe. Isso inclui mandar MDs para outros membros."
+        },
+        {
+            "id": 3,
+            "name": "Regra N-3",
+            "rule": "Nada de conteúdo adulto ou obsceno. Isso inclui texto, imagens ou links que contenham nudez, sexo, violência pesada ou conteúdo graficamente perturbador."
+        },
+        {
+            "id": 4,
+            "name": "Regra N-4",
+            "rule": "Se você vir algo que quebre as regras, ou algo que te faça sentir insegurança, avise a equipe. Queremos que este servidor seja um espaço acolhedor!"
+        },
+        {
+            "id": 5,
+            "name": "Regra N-5",
+            "rule": "Qualquer tentativa de suborno com algum staff ou player terá suas devidas consequências seja no privado ou em algum chat (caso seja um suborno grave poderá resultar até mesmo em banimentos.)."
+        },
+        {
+            "id": 6,
+            "name": "Regra N-6",
+            "rule": "Divulgações de live stream ou videos somente no canal ⁠🎨・divulgação , caso você tenha o cargo @CREATOR | Streamer ou @CREATOR | Youtuber será permitido a divulgação de live stream no canal ⁠📢・divulgação-lives e de videos no canal ⁠📣・divulgação-videos ."
+        }
+    ]
+}
+
