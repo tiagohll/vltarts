@@ -16,6 +16,7 @@ export function Artes() {
   const [data2, setData2] = useState<Artes>();
 
   useEffect(() => {
+    document.title = "Artes - VLT Art's"
     onValue(ref(getDatabase(), "artes/logos"), (snapshot) => {
       setData(snapshot.val());
     });
